@@ -1,0 +1,35 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-container {
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.display {
+  border: 1px solid #999;
+  background: white;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  text-align: right;
+  min-height: 32px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 8px;
+}
+
+button {
+  height: 50px;
+  font-size: 18px;
+  background-color: lightblue;
+  cursor: pointer;
+}
